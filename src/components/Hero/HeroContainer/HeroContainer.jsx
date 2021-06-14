@@ -6,9 +6,10 @@ import "./HeroContainer.css";
 
 const HeroContainer = () => {
 	return (
-		<div className="HeroContainer grid grid-cols-2">
+		<div className="HeroContainer grid grid-cols-2 min-h-screen">
 			<HeroHeader />
-			<HeroBody />
+			<HeroBody alignItems="items-end" text="I'm a web developer, and classical musician."/>
+			<HeroBody alignItems="items-center" text="Click on any of the links in the navigation to view more about me and my work."/>
 			<ShapesContainer />
 		</div>
 	)

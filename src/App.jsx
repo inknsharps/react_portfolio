@@ -6,7 +6,7 @@ import "./App.css";
 
 const App = () => {
 	return (
-			<div className="App divide-solid divide-y-2 divide-gray-500">
+			<div className="App max-w-full divide-solid divide-y-2 divide-gray-500">
 				<Navbar />
 				<MainContainer />
 				<Footer />

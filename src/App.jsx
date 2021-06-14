@@ -1,10 +1,15 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import BodyContainer from "./components/Body/BodyContainer/BodyContainer";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {
 	return (
 			<div className="App">
-				<h1 className="p-5">This is the App component.</h1>
+				<Navbar />
+				<BodyContainer />
+				<Footer />
 			</div>
 	)
 };

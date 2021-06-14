@@ -3,9 +3,9 @@ import "./BodyContainer.css";
 
 const BodyContainer = () => {
 	return (
-		<div className="BodyContainer">
-
-		</div>
+		<main className="BodyContainer">
+			
+		</main>
 	)
 };
 

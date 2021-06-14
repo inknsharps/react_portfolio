@@ -20,7 +20,7 @@ export default {
         /* ... */
     },
     devOptions: {
-        tailwindConfig: "./tailwind.config.js",
+        tailwindConfig: "./tailwind.config.js"
     },
     buildOptions: {
         /* ... */

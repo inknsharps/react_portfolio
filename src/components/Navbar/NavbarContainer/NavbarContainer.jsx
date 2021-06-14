@@ -4,7 +4,7 @@ import "./NavbarContainer.css";
 
 const NavbarContainer = () => {
 	return (
-		<nav className="NavbarContainer flex justify-between">
+		<nav className="NavbarContainer flex justify-between p-5">
 			<h1 className="bg-gradient-to-l from-green-700 to-indigo-700 bg-clip-text text-transparent text-3xl">Neil Chen</h1>
 			<ul className="grid grid-cols-3 gap-x-5">
 				<NavbarLi liText="About" liLink="#about" />

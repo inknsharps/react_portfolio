@@ -1,7 +1,6 @@
 import React from "react";
 import HeroHeader from "../HeroHeader/HeroHeader";
 import HeroBody from "../HeroBody/HeroBody";
-import ShapesContainer from "../../Shapes/ShapesContainer/ShapesContainer";
 import "./HeroContainer.css";
 
 const HeroContainer = () => {
@@ -10,7 +9,6 @@ const HeroContainer = () => {
 			<HeroHeader />
 			<HeroBody alignItems="items-end" text="I'm a web developer, and classical musician."/>
 			<HeroBody alignItems="items-center" text="Click on any of the links in the navigation to view more about me and my work."/>
-			<ShapesContainer />
 		</div>
 	)
 };

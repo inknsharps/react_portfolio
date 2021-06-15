@@ -58,7 +58,7 @@ const ProjectContainer = () => {
 
 	return (
 		<main className="ProjectContainer grid grid-cols-1 gap-y-5 xl:gap-y-20">
-			<h2 className="p-5 mx-5 xl:mx-16 bg-gradient-to-r from-green-500 via-indigo-500 to-red-500 bg-clip-text text-transparent text-5xl lg:text-6xl xl:text-7xl">Projects</h2>
+			<h2 className="p-5 mx-5 xl:mx-16 bg-gradient-to-r from-green-500 via-indigo-500 to-red-500 bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl">Projects</h2>
 			{ generateProjects(projects) }
 		</main>
 	)

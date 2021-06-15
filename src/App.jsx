@@ -7,7 +7,6 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
 import ShapesContainer from "./components/Shapes/ShapesContainer/ShapesContainer";
-import "./App.css";
 
 const App = () => {
 	return (

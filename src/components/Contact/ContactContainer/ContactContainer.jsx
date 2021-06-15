@@ -8,7 +8,7 @@ const ContactContainer = () => {
 			<h2 className="p-6 mx-16 text-8xl">Have a proposal or want to collaborate? Let's get in touch.</h2>
 			<h3 className="p-6 mx-16 text-5xl">You can reach me at any of the below links:</h3>
 			<AboutLink githubLink="https://github.com/inknsharps" linkedInLink="https://www.linkedin.com/in/neil-chen-8a596b1b9/" instaLink="https://www.instagram.com/ink.n.sharps" />
-			<h4 className="p-6 mx-16 text-5xl">Or hit me up at my <a className="underline bg-red-500 text-white" href="https://www.inknsharps.com/">less web developer-y site</a>.</h4>
+			<h4 className="p-6 mx-16 text-4xl">Or hit me up at my <a className="underline bg-red-500 text-white" href="https://www.inknsharps.com/" target="_blank" rel="noopener noreferrer">less web developer-y site</a>.</h4>
 		</div>
 	)
 };

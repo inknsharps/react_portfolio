@@ -4,12 +4,7 @@ module.exports = {
 		content: [
 			"./src/**/*.{js,jsx,ts,tsx}", 
 			"./public/index.html"
-		],
-		options: {
-			safelist: {
-				greedy: ["/CircleShape$/"]
-			}
-		}
+		]
 	},
     darkMode: false, // or 'media' or 'class'
     theme: {

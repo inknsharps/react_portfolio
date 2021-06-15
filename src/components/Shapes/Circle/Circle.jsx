@@ -31,7 +31,7 @@ const Circle = ({ circleNum }) => {
 			circleArray.push(newCircle);
 		}
 		return circleArray.map(({ top, left, bottom, right, width, height, color, delay, index }) => {
-			return <div key={ index } className={ `relative ${ top } ${ bottom } ${ left } ${ right } ${ width } ${ height } ${ color } rounded-full mix-blend-multiply opacity-25 animate-blob ${ delay }` }></div>
+			return <div key={ index } className={ `CircleShape relative ${ top } ${ bottom } ${ left } ${ right } ${ width } ${ height } ${ color } rounded-full mix-blend-multiply opacity-25 animate-blob ${ delay }` }></div>
 		})
 	};
 

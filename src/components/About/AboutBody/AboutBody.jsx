@@ -4,7 +4,7 @@ import "./AboutBody.css";
 
 const AboutBody = () => {
 	return (
-		<article className="flex flex-col justify-evenly bg-gradient-to-r from-green-800 via-indigo-800 to-blue-800 bg-clip-text text-transparent text-2xl mr-32">
+		<article className="flex flex-col justify-evenly bg-gradient-to-r from-green-800 via-indigo-800 to-blue-800 bg-clip-text text-transparent text-2xl m-5 xl:mr-32">
 			<div className="AboutBody">
 				<p>Neil Chen is a New York City based web developer, and freelance classical musician.</p>
 				<br />

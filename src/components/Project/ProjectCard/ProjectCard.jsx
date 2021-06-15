@@ -7,14 +7,14 @@ const ProjectCard = ({ projectName = "Project Name", projectDesc = "Project Desc
 	switch(alignImage) {
 		case "left":
 			return (
-				<article className="ProjectCard grid grid-cols-3 p-4 m-4 bg-gray-200 rounded-full">
+				<article className="ProjectCard grid grid-cols-1 xl:grid-cols-3 p-8 xl:p-4 m-4 bg-gray-200 rounded-full">
 					<ProjectImage imageSrc={ imageSrc } />
 					<ProjectBody projectName={ projectName } projectDesc={ projectDesc } githubLink={ githubLink } deployLink={ deployLink } />
 				</article>
 			)
 		case "right":
 			return (
-				<article className="ProjectCard grid grid-cols-3 p-4 m-4 bg-gray-200 rounded-full">
+				<article className="ProjectCard grid grid-cols-1 xl:grid-cols-3 p-8 xl:p-4 m-4 bg-gray-200 rounded-full">
 					<ProjectBody projectName={ projectName } projectDesc={ projectDesc } githubLink={ githubLink } deployLink={ deployLink } />
 					<ProjectImage imageSrc={ imageSrc } />
 				</article>

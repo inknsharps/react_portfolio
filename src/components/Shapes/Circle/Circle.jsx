@@ -10,10 +10,10 @@ const Circle = ({ circleNum }) => {
 		const circleArray = [];
 
 		for (let i = 0; i < numOfCircles; i++) {
-			const topCoordinate = Math.floor(Math.random() * 80);
-			const leftCoordinate = Math.floor(Math.random() * (80 - 20) + 20);
-			const bottomCoordinate = Math.floor(Math.random() * 80);
-			const rightCoordinate = Math.floor(Math.random() * 20)
+			const topCoordinate = Math.floor(Math.random() * 10);
+			const leftCoordinate = Math.floor(Math.random() * 10);
+			const bottomCoordinate = Math.floor(Math.random() * 10);
+			const rightCoordinate = Math.floor(Math.random() * 10);
 			const size = dimensions[Math.floor(Math.random() * dimensions.length)];
 			const selectedColor = colors[Math.floor(Math.random() * colors.length)];
 			const selectedDelay = animationDelays[Math.floor(Math.random() * animationDelays.length)];

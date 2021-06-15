@@ -4,12 +4,7 @@ module.exports = {
 		content: [
 			"./src/**/*.{js,jsx,ts,tsx}", 
 			"./public/index.html"
-		],
-		options: {
-			safelist: {
-				standard: ["/^bg-|animation|top|bottom|left|right/"]
-			}
-		}
+		]
 	},
     darkMode: false, // or 'media' or 'class'
     theme: {

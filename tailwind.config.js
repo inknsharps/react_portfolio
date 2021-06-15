@@ -1,10 +1,15 @@
+const { colors, coordinates: { top, bottom, left, right }, dimensions: { height, width }, animations } = require("./safelist");
+
 module.exports = {
 	// mode: "jit",
     purge: {
 		content: [
 			"./src/**/*.{js,jsx,ts,tsx}", 
 			"./public/index.html"
-		]
+		],
+		options: {
+			safelist: [ ...colors, ...top, ...bottom, ...left, ...right, ...height, ...width, ...animations ]
+		}
 	},
     darkMode: false, // or 'media' or 'class'
     theme: {

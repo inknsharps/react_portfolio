@@ -3,7 +3,7 @@ import ProjectImage from "../ProjectImage/ProjectImage";
 import ProjectBody from "../ProjectBody/ProjectBody";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ projectName }) => {
+const ProjectCard = ({ projectName = "Project Name" }) => {
 	return (
 		<article className="ProjectCard grid grid-cols-3 p-4 m-4 bg-gray-200 rounded-full">
 			<ProjectImage />

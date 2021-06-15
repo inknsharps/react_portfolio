@@ -5,7 +5,7 @@ import "./AboutContainer.css";
 
 const AboutContainer = () => {
 	return (
-		<div className="AboutContainer grid grid-cols-1 xl:grid-cols-2">
+		<div className="AboutContainer grid grid-cols-1 md:grid-cols-2">
 			<AboutImage />
 			<AboutBody />
 		</div>

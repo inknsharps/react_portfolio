@@ -7,7 +7,7 @@ const NavbarContainer = () => {
 	return (
 		<nav className="NavbarContainer flex justify-between p-5">
 			<NavLink to="/">
-				<h1 className="bg-gradient-to-l from-green-700 to-indigo-700 bg-clip-text text-transparent text-lg xl:text-3xl">Neil Chen</h1>
+				<h1 className="bg-gradient-to-l from-green-700 to-indigo-700 bg-clip-text text-transparent text-lg lg:text-2xl xl:text-3xl">Neil Chen</h1>
 			</NavLink>
 			<ul className="grid grid-cols-3 gap-x-5">
 				<NavbarLi liText="About" liLink="about" />

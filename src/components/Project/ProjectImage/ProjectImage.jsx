@@ -1,13 +1,10 @@
 import React from "react";
 import "./ProjectImage.css";
 
-const ProjectImage = () => {
+const ProjectImage = ({ imageSrc }) => {
 	return (
-		<div className="ProjectImage grid grid-cols-2 justify-items-center gap-y-4 m-4">
-			<img className="rounded-full ring-2 ring-offset-4" src="https://picsum.photos/200" alt="placeholder"></img>
-			<img className="rounded-full ring-2 ring-offset-4" src="https://picsum.photos/200" alt="placeholder"></img>
-			<img className="rounded-full ring-2 ring-offset-4" src="https://picsum.photos/200" alt="placeholder"></img>
-			<img className="rounded-full ring-2 ring-offset-4" src="https://picsum.photos/200" alt="placeholder"></img>
+		<div className="ProjectImage col-span-1 grid grid-cols-1 justify-items-center gap-y-4 m-4">
+			<img className="rounded-full ring-2 ring-offset-4" src={ imageSrc } alt="placeholder"></img>
 		</div>
 	)
 };

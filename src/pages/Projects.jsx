@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectContainer from "../components/Project/ProjectContainer/ProjectContainer";
 
 const Projects = () => {
 	return (
 		<div>
-			<h4>Projects Page.</h4>
+			<ProjectContainer />
 		</div>
 	)
 };

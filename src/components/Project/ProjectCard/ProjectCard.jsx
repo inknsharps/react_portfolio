@@ -8,7 +8,7 @@ const ProjectCard = ({ projectName = "Project Name", projectDesc = "Project Desc
 		case "left":
 			return (
 				<article className="ProjectCard grid grid-cols-3 p-4 m-4 bg-gray-200 rounded-full">
-					<ProjectImage imageSrc={ imageSrc }/>
+					<ProjectImage imageSrc={ imageSrc } />
 					<ProjectBody projectName={ projectName } projectDesc={ projectDesc } githubLink={ githubLink } deployLink={ deployLink } />
 				</article>
 			)
@@ -16,7 +16,7 @@ const ProjectCard = ({ projectName = "Project Name", projectDesc = "Project Desc
 			return (
 				<article className="ProjectCard grid grid-cols-3 p-4 m-4 bg-gray-200 rounded-full">
 					<ProjectBody projectName={ projectName } projectDesc={ projectDesc } githubLink={ githubLink } deployLink={ deployLink } />
-					<ProjectImage imageSrc={ imageSrc} />
+					<ProjectImage imageSrc={ imageSrc } />
 				</article>
 			)	
 		default:

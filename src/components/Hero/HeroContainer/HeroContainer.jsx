@@ -5,10 +5,10 @@ import "./HeroContainer.css";
 
 const HeroContainer = () => {
 	return (
-		<div className="HeroContainer grid grid-cols-2 min-h-screen">
+		<div className="HeroContainer grid grid-cols-1 xl:grid-cols-2 min-h-screen">
 			<HeroHeader />
-			<HeroBody alignItems="items-end" text="I'm a web developer, and classical musician."/>
-			<HeroBody alignItems="items-center" text="Click on any of the links in the navigation to view more about me and my work."/>
+			<HeroBody alignItems="items-end" textAlign="text-right" text="I'm a web developer, and classical musician."/>
+			<HeroBody alignItems="items-center" textAlign="text-left" text="Click on any of the links in the navigation to view more about me and my work."/>
 		</div>
 	)
 };

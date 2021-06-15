@@ -23,7 +23,7 @@ export default {
         tailwindConfig: "./tailwind.config.js"
     },
     buildOptions: {
-        /* ... */
+        baseUrl: "/react_portfolio"
     },
 	optimize: {
 		bundle: true,

@@ -18,6 +18,9 @@ module.exports = {
 					"75%": { transform: "translate(-1vh, -1vh) scale(1.1)" },
 					"100%": { transform: "translate(0vh, 0vh) scale(1)" }
 				}
+			},
+			ringOffsetWidth: {
+				"16": "16px"
 			}
 		}
     },

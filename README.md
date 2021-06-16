@@ -1,3 +1,4 @@
+![top-language](https://img.shields.io/github/languages/top/inknsharps/react_portfolio?style=flat-square) ![license](https://img.shields.io/github/license/inknsharps/react_portfolio?style=flat-square) ![deployment-state](https://img.shields.io/github/deployments/inknsharps/react_portfolio/github-pages?label=deployment%20state&style=flat-square)
 # React Portfolio
 
 ![banner](./img/banner.jpg)
@@ -45,27 +46,18 @@ import "./ProjectContainer.css";
 const ProjectContainer = () => {
     const projects = [
         {
-            projectName: "",		// Name
-            projectDesc: "",		// Description
-            alignImage: "", 		// "left" or "right" to move the image of the project to be left or right aligned
-            imageSrc: "", 			// Image link
-            githubLink: "", 		// Github link
-            deployLink: "" 			// Deployed link
+            projectName: "",        // Name
+            projectDesc: "",        // Description
+            alignImage: "",         // "left" or "right" to move the image of the project to be left or right aligned
+            imageSrc: "",           // Image link
+            githubLink: "",         // Github link
+            deployLink: ""          // Deployed link
         },
         ...
     ]
-
-    const generateProjects = projects => projects.map(project => <ProjectCard { ...project } />);
-
-    return (
-        <main className="ProjectContainer">
-            <h2>Projects</h2>
-            { generateProjects(projects) }
-        </main>
-    )
+    ...
 };
-
-export default ProjectContainer;
+...
 ```
 
 ### PurgeCSS Safelist Configuration
@@ -74,6 +66,7 @@ Tailwind CSS includes a [PurgeCSS](https://purgecss.com/) version that works spe
 
 ```
 // tailwind.config.js
+
 const { colors, coordinates: { top, bottom, left, right }, dimensions: { height, width }, animations } = require("./safelist");
 
 module.exports = {
@@ -92,10 +85,14 @@ module.exports = {
 
 ### Production Build
 
-Run `npm build` if you want to build a production/optimized version of the application.
+Run `npm build` if you want to build a production/optimized version of the application that is ready for deployment. Note that the application will not load without some live server or dev server running if you're trying to view it, so stick to the development version unless you want to deploy the application.
 
 ## Images
 
 ![home](./img/home.jpg)
 
 ![projects](./img/projects.jpg)
+
+## Issues and Suggestions
+
+Feel free to open up a discussion on this repo's [issues](https://github.com/inknsharps/react_portfolio/issues) if you have any questions or concerns.

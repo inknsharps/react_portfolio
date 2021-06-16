@@ -48,7 +48,7 @@ const ProjectContainer = () => {
 			projectName: "React Portfolio",
 			projectDesc: "The source code for this portfolio website!",
 			alignImage: "right",
-			imageSrc: "https://picsum.photos/300",
+			imageSrc: "https://github.com/inknsharps/react_portfolio/blob/main/img/banner.jpg?raw=true",
 			githubLink: "https://github.com/inknsharps/react_portfolio",
 			deployLink: "https://github.com/inknsharps/react_portfolio"
 		}

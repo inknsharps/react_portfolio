@@ -1,7 +1,7 @@
 import React from "react";
 import "./Circle.css";
 
-const Circle = ({ circleNum }) => {
+const Circle = ({ circleNum = 2 }) => {
 	const dimensions = [24, 36, 48, 60, 72, 84, 96]
 	const colors = ["gray", "red", "yellow", "green", "blue", "indigo", "purple", "pink"];
 	const animationDelays = [0, 2000, 4000, 6000];
@@ -31,7 +31,7 @@ const Circle = ({ circleNum }) => {
 			circleArray.push(newCircle);
 		}
 		return circleArray.map(({ top, left, bottom, right, width, height, color, delay, index }) => {
-			return <div key={ index } className={ `relative ${ top } ${ bottom } ${ left } ${ right } ${ width } ${ height } ${ color } rounded-full mix-blend-multiply opacity-20 xl:opacity-25 animate-blob ${ delay }` }></div>
+			return <div key={ index } className={ `relative ${ top } ${ bottom } ${ left } ${ right } ${ width } ${ height } ${ color } rounded-full mix-blend-soft-light opacity-20 xl:opacity-25 animate-blob ${ delay }` }></div>
 		})
 	};
 
@@ -40,10 +40,6 @@ const Circle = ({ circleNum }) => {
 			{ generateCircles(circleNum) }
 		</div>
 	)
-};
-
-Circle.defaultProps = {
-	circleNum: 5
 };
 
 export default Circle;

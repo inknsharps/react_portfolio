@@ -5,20 +5,20 @@ import "./ProjectContainer.css";
 const ProjectContainer = () => {
 	const projects = [
 		{
+			projectName: "Banneton",
+			projectDesc: "A bread baking focused social media platform built with the MERN stack.",
+			alignImage: "left",
+			imageSrc: "https://raw.githubusercontent.com/inknsharps/banneton/main/img/banneton.png",
+			githubLink: "https://github.com/inknsharps/banneton",
+			deployLink: "https://banneton.herokuapp.com/"
+		},
+		{
 			projectName: "CodePasta",
 			projectDesc: "A web application to manage code snippets, built with React, Tailwind CSS, Express, MongoDB and Node.js.",
-			alignImage: "left",
+			alignImage: "right",
 			imageSrc: "https://raw.githubusercontent.com/inknsharps/CodePasta/main/img/header.jpg",
 			githubLink: "https://github.com/inknsharps/CodePasta",
 			deployLink: "https://pure-lake-84406.herokuapp.com/"
-		},
-		{
-			projectName: "TicketTask",
-			projectDesc: "A event CMS web application, built with Handlebars, Express, MySQL and Node.js",
-			alignImage: "right",
-			imageSrc: "https://raw.githubusercontent.com/inknsharps/webapp-portfolio/main/assets/images/tickettask-2.jpg",
-			githubLink: "https://github.com/inknsharps/TicketTask",
-			deployLink: "https://lit-escarpment-19563.herokuapp.com/"
 		},
 		{
 			projectName: "WhiptUp",
